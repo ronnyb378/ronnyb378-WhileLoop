@@ -1,4 +1,3 @@
-
 public class Lab {
     /**
      * A while loop uses a conditional statement (within parentheses) and runs the code {within curly braces}
@@ -36,7 +35,10 @@ public class Lab {
         int sum = 0;
         int i = 0;
 
-//        code here
+        while (i < end) {
+            sum += i;
+            i++;
+        }
 
         return sum;
     }
